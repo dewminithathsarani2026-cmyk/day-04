@@ -7,11 +7,11 @@
     age=50;
     console.log(age);
 
-    let customerList=["Saman","kamal", "nimal"];
+    const customerList=["Saman","kamal", "nimal"];
     console.log(customerList);
 
-    customerList="Kumara";
+    customerList.push ("Kumara");
     console.log(customerList);
 
-    
+
  
