@@ -50,27 +50,45 @@
 
  //method 1
 
- function addNumbers(num1, num2){
-    return num1+num2;
- }
+ //function addNumbers(num1, num2){
+  //  return num1+num2;
+ //}
 
   
- console.log(addNumbers(10,20));
+// console.log(addNumbers(10,20));
 
 //method 2
-let getSum=function(num1, num2){
-    return num1+num2;
+//let getSum=function(num1, num2){
+ //   return num1+num2;
 
-}
+//}
 
-console.log(getSum(10,20));
+//console.log(getSum(10,20));
 
 
 //method 3
-let getTotal=(num1, num2) =>{
-    return num1+ num2;
+//let getTotal=(num1, num2) =>{
+ //   return num1+ num2;
+//}
+//console.log(getTotal(10,20));
+
+
+// method 4-anonymous function
+//(num1+ num2)=> {
+  //  return num1+ num2;
+//}
+
+
+
+//arrow function with single parameter
+let txtValue= txtValue=>{
+    return txtValue;
 }
-console.log(getTotal(10,20));
+console.log(txtVale("hello world"));
 
 
+
+//arrow function with single parameter- short hand
+let sample= txtValue=> txtValue1;
+console.log(sample("hello world 2"));
 
