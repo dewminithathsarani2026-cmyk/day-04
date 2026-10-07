@@ -22,7 +22,7 @@
     {name:"butter", instock:false, price: 500},
   ];
 
-  console.log(productList);
+ // console.log(productList);
 
   //let inStockProducts=productList.filter(
   //  function (product){
@@ -81,14 +81,24 @@
 
 
 //arrow function with single parameter
-let txtValue= txtValue=>{
-    return txtValue;
-}
-console.log(txtVale("hello world"));
+//let txtValue= txtValue=>{
+ //   return txtValue;
+//}
+//console.log(txtVale("hello world"));
 
 
 
 //arrow function with single parameter- short hand
-let sample= txtValue=> txtValue1;
-console.log(sample("hello world 2"));
+//let sample= txtValue=> txtValue1;
+//console.log(sample("hello world 2"));
+
+
+
+//sorting array of objects
+
+const leterList= ["D", "A", "C" , "B" , "S", "M", "Z", "E"];
+console.log(leterList);
+
+const sortArray = leterList.sort();
+console.log(sortArray);
 
